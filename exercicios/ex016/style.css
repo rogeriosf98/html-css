@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #EFDFCC, #D4C2AD); /* mesmo sendo para fazer efeito de degrade, o comando é bacjground image */
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /* arredondar bordas, no caso do main */
+    box-shadow: 5px 5px 15px #0f2c17ac; /* Sombra, dimensões de baixo, lado, continuidade, meio esvaziando a sombra, e por fim a cor */
+    width: 600px;
+    padding: 10px; /* margem entre o texto e a borda da caixa ou box */
+    margin: auto; /* com esse comando, o texto sempre fica alinhado ao centro, mesmo mudando o tamnho da janela e mexendo nas dimensões do navegador ou etc */
+}
+
+h1 {
+   color: #371607;
+   text-align: center;
+   box-shadow: 1px 1px 1px black;
+}
+
+h2 {
+    color: #512713;
+}
+
+p {
+    text-align: justify;
+}

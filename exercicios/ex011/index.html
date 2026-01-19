@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/Ajja - Geminorum.mp3" controls autoplay></audio>
+
+    <h1>Outra maneira de adicionar audios é a seguinte</h1>
+    <audio preload="metadata" autoplay controls> 
+        <source src="midia/Mad Tribe - Sound Horn Ok (OUT NOW on Digital Om Productions).mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>
